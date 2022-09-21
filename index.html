@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table>
+        <tr class="tr-h">
+            <td></td>
+            <td>
+                <h3>SECRETARIA DE ADMINISTRAÇÃO</h3>
+                <strong> CNPJ : 36.862.621/0001-21</strong>
+
+            </td>
+            <td></td>
+        </tr>
+        <tr class="nomePonto ">
+            <td> CARTÃO DE PONTO</td>
+
+        </tr>
+        <tr class="w-full">
+            <td>CARTÃO DE ACORDO COM ARTIGO 15 DA PORTARIA MTB NRO. 3.626 DE 13/11/1991.</td>
+        </tr>
+        <tr class="usuario">
+            <td class="img"><img
+                    src="data:image/jpeg;base64,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"
+                    alt=""></td>
+            <td class="sobre">
+                <div class="conteudo">
+                    <p>
+                        Período : <span>01/05/2022 a 31/05/2022 </span> Chapa : <span> 961384 </span>
+                    </p>
+
+                    <p> Nome : <span>THAIANE SOUZA DELEVEDOVE </span> </p>
+
+
+                    <p> Quadro :<span> 08:00 12:00 14:00 18:00 (SAB/DOM) M </span> </p>
+                    <p>Departamento : <span>SECRETARIA DE INFRAESTRUTURA E SERVIÇOS </span> </p>
+
+                </div>
+
+
+
+            </td>
+            <td class="data">
+                <div>Data de Admissão
+                    no sistema</div>
+
+                <div>24/06/2021</div>
+
+
+
+            </td>
+        </tr>
+        <tr class="inf">
+            <td>Data</td>
+            <td>Entrada #1</td>
+            <td>Saída #1</td>
+            <td>Entrada #2</td>
+            <td>Saída #2</td>
+            <td>Saídas</td>
+            <td>Faltas</td>
+            <td>Abonos</td>
+            <td>Extras</td>
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td class="diaDoTra" colspan="4">DIA DO TRABALHADOR</td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+
+
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td class="diaDoTra" colspan="4">DISPENSADO DO TRABALHO</td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td class="diaDoTra" colspan="4">FOLGA
+            </td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td class="diaDoTra" colspan="4">DESCANSO SEMANAL</td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td class="diaDoTra" colspan="4">FOLGA</td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td class="diaDoTra" colspan="4">DESCANSO SEMANAL</td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td class="diaDoTra" colspan="2">ATESTADO DE COMPARECIMENTO</td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td class="diaDoTra" colspan="4">DESCANSO SEMANAL</td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td class="diaDoTra" colspan="2">ATESTADO DE COMPARECIMENTO</td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td class="diaDoTra" colspan="4">FOLGA</td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+
+
+
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td class="diaDoTra" colspan="4">DESCANSO SEMANAL</td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td class="diaDoTra" colspan="4">HOME OFFICE</td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+        <tr class="row">
+            <td class="dataInf">
+                <input type="date">
+            </td>
+            <td class="diaDoTra" colspan="4">HOME OFFICE</td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+            <td> <input type="time"></td>
+        </tr>
+
+    </table>
+    <div class="rodape">
+        <p>Pontos com Asterisco (*) Foram Alterados Manualmente.
+        </p>
+        <div class="conteudoRodape">
+            <div class="carga">
+                <div class="cargaH"> Carga Horária
+                    176:00
+                    Horas Trabalhadas
+                    147:34
+                    Adicional Noturno
+                    00:00
+                    Horas Extras
+                    07:26</div>
+            </div>
+            <div class="descontos">
+                DESCONTOS
+                Faltas (-): 35:57
+                Saídas (-): 00:00
+                Abatimento(-): 00:00
+
+                TOTAL (-) : 35:57
+
+                Abonos (+) : 23:40
+
+                Saldo Devedor: 12:17
+            </div>
+            <div class="resumo">
+                Resumo Horas Extras
+                TOTAL
+                07:26
+                Tipos de Extra
+                DSR 100.00% 00:00
+                Folga 50.00% 03:04
+                Feriado 100.00% 00:00
+                Extras 50.00% 04:22
+                Extras 100.00% 00:00
+            </div>
+            <div class="hist">
+
+                HISTÓRICO
+                Extras (+): 07:26
+                Descontar(-): 12:17
+                Saldo
+                - 04:51
+            </div>
+        </div>
+    </div>
+   
+    <div class="fim">
+        <span>
+            Reconheço os registros acima inseridos através da assinatura eletrônica e de minhas fotos
+    
+        </span>
+        <div class="conteudoFinal">
+    
+        
+     
+        <div class="separaE">
+            <span class="nome">THAIANE SOUZA DELEVEDOVE </span>
+        </div>
+        <div class="separaD">
+            <span>2D1675DA71CCDA</span>
+            <span>Assinatura Eletrônica</span>
+        </div>
+        
+    </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.w-full td{
+    font-size: 12px;
+    text-align: center;
+
+    height: 30px;
+}
+
+td {
+
+    border: 1px solid black;
+}
+
+.tr-h {
+    display: flex;
+
+    height: 70px;
+}
+
+td:nth-child(1) {
+
+    width: 20%;
+
+}
+
+td:nth-child(2) {
+
+    line-height: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+
+}
+
+h3 {
+font-size:16px;
+    position: relative;
+    top: -10px;
+}
+
+strong {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+
+}
+
+td:nth-child(3) {
+    width: 20%;
+}
+
+.nomePonto {
+    text-align: center;
+    
+    height: 40px;
+    font-size: 1.3em;
+    font-weight: 900;
+}
+
+.usuario {
+    display: flex;
+ 
+    flex-direction: row;
+}
+
+.img {
+    display: inherit;
+    justify-content: center;
+    height: auto;
+    width: 15%;
+}
+
+.sobre {
+    width: 75%;
+    display: none;
+ 
+
+}
+
+.sobre p{
+    display:block;
+    margin: 0;
+    font-size: 12px;
+    line-height: 15px;
+  
+    }
+.data {
+    width: 15%;font-weight: bolder;
+    
+}
+.data div:nth-child(1){
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    
+    background-color: #c4c4c4;
+}
+.data div{
+   
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.inf{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+.inf td{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+img{
+    width: 40%;
+    height:  100%;
+}
+
+.row{
+    display: flex;
+
+    
+}
+
+.diaDoTra{
+    font-size: 9px;
+}
+.dataInf{
+    width: auto;
+ 
+}
+
+.rodape{
+   width: 100%;
+  
+  text-align: center;
+    border: solid 1px black;
+}
+.conteudoRodape{
+    background-color: blue;
+    display: flex;
+ 
+}
+
+
+.carga,.descontos,.resumo,.hist{
+    width: 25%;
+    display: flex;
+    background-color: rgb(0, 255, 128);
+  border: 1px solid black;
+    flex-direction: column;
+}
+
+span.nome{
+    border-top: 1px solid black;
+}
+.fim{
+    text-align: center;
+}
+.conteudoFinal{
+    display: flex;
+    position: relative;
+    top: 10px;
+    justify-content: space-around;
+}
